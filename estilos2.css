@@ -1,0 +1,52 @@
+body{
+	background-image: url("images/gothic-background.jpg");
+	overflow-x: hidden;
+}
+@font-face{
+	font-family:"Mortal";
+	src: url("fuentes/mortal.ttf");
+}
+h1{
+	font-size: 50px;
+}
+p{
+	font-family: "Comic Sans MS", serif;
+	color: white;
+	text-indent: 1%;
+	font-size: 20px;
+}
+img{
+	float: right;
+	margin-right: 25px;
+	border-radius: 20px;
+}
+.medio{
+	float: none;
+	margin-right: 20%;
+	margin-left: 5px;
+}
+#menu{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+#mortal{
+	color: white;
+	font-family: "Mortal";
+}
+#fin{
+	text-indent: 0%;
+	text-align: center;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+#pie{
+	background-color: green;
+	text-align: center;
+	height: 3%;
+	width: 100%;
+	position: sticky;
+	left: 0px;
+	bottom: 0px;
+	padding: 20px;
+}

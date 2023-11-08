@@ -1,0 +1,80 @@
+body{
+	background-image: url("images/gothic-background.jpg");
+	overflow-x: hidden;
+}
+@font-face{
+	font-family:"Pixel street";
+	src: url("fuentes/SSF4 ABUKET.ttf");
+}
+h1{
+	font-family: "Pixel street", serif;
+	font-size: 50px;
+	background: -webkit-radial-gradient(0% 10%, yellow, red 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+	text-indent: 2%;
+	font-family: "Pixel street", serif;
+	font-size: 20px;
+	color: white;
+}
+p{
+	font-family: "Comic Sans MS", serif;
+	color: white;
+	text-indent: 1%;
+	font-size: 20px;
+}
+img{
+	float: right;
+	border-radius: 20px;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: grey;
+}
+.image_indi{
+	position: absolute;
+	right: 200px;
+	top: 70px;
+}
+.medio{
+	float: none;
+	margin-left:auto;
+	margin-right:auto;
+}
+#fin{
+	text-indent: 0%;
+	text-align: center;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+#menu{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+#indice_1{
+	padding: 20px;
+}
+#indice_2{
+	padding: 20px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+}
+#intro{
+	padding: 20px;
+}
+#pie{
+	background-color: green;
+	text-align: center;
+	height: 3%;
+	width: 100%;
+	position: sticky;
+	left: 0px;
+	bottom: 0px;
+	padding: 20px;
+}
